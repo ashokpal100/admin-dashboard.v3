@@ -26,7 +26,6 @@
     "commit": "365a1ded2e0322453a5cb8d0260f383fd1a27095"
   },
   "_source": "https://github.com/angular-ui/angular-ui-router-bower.git",
-  "_target": "^1.0.14",
-  "_originalSource": "angular-ui-router",
-  "_direct": true
+  "_target": "1.0.14",
+  "_originalSource": "angular-ui-router"
 }

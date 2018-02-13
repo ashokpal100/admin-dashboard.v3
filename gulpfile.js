@@ -46,7 +46,7 @@ gulp.task('views', function() {
 
 // copy js
 gulp.task('js', function() {
-  return gulp.src('src/js/**/**/**/*')
+  return gulp.src('src/js/**/**/**/**/*')
   .pipe(gulp.dest('dist/js'))
 })
 
@@ -89,7 +89,7 @@ gulp.task('dev', function (callback) {
         'cache:clear',
         ['useref',
         'fonts',
-        'images','views','js'],
+        'images'],
         'watch',
     callback);
 });
@@ -118,18 +118,3 @@ gulp.task('watch', function() {
 gulp.task('default', function () {
     runSequence('dev');
 });
-
-
-gulp.task('html', function () {
-  gulp.src('./src/*.html')
-    .pipe(gulp.dest('dist'))
-    .pipe(connect.reload());
-});
-
-gulp.task('watch1', function () {
-  gulp.watch(['./src/*.html'], ['html']);
-});
-
-gulp.task('default', ['connect', 'watch']);
-
-

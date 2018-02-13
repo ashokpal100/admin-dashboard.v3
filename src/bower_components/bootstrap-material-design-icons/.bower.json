@@ -40,7 +40,6 @@
     "commit": "635435c8d3df3a6da3241648caf8a65d1c07cc1a"
   },
   "_source": "https://github.com/mervick/material-design-icons.git",
-  "_target": "^2.2.0",
-  "_originalSource": "bootstrap-material-design-icons",
-  "_direct": true
+  "_target": "2.2.0",
+  "_originalSource": "bootstrap-material-design-icons"
 }

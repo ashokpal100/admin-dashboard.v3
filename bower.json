@@ -16,18 +16,18 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.6.9",
-    "oclazyload": "^1.1.0",
-    "angular-ui-router": "^1.0.14",
+    "angular": "1.6.9",
+    "oclazyload": "1.1.0",
+    "angular-ui-router": "1.0.14",
     "bootstrap": "3.3.7",
     "font-awesome": "4.7.0",
-    "angular-bootstrap": "^2.5.0",
+    "angular-bootstrap": "2.5.0",
     "angular-material": "1.1.5",
-    "angular-animate": "^1.6.9",
-    "angular-ui-notification": "^0.3.6",
-    "bootstrap-datepicker": "^1.7.1",
-    "angular-cookies": "^1.6.9",
-    "ngECharts": "ngecharts#^0.2.0",
-    "bootstrap-material-design-icons": "^2.2.0"
+    "angular-animate": "1.6.9",
+    "angular-ui-notification": "0.3.6",
+    "bootstrap-datepicker": "1.7.1",
+    "angular-cookies": "1.6.9",
+    "ngECharts": "ngecharts#0.2.0",
+    "bootstrap-material-design-icons": "2.2.0"
   }
 }

@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 
-const appRoot = 'src';
+const appRoot = 'dist';
 
 app.use(express.static(path.join(__dirname,appRoot)))
 
